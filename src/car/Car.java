@@ -12,7 +12,7 @@ public class Car {
 
     public Car(int year) {
         this.year = year;
-        color = "Yellow";
+        color = "Yellow"; // лучше использовать this.color
     }
 
     public Car(int year, String color) {

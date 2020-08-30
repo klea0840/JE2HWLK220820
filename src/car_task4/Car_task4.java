@@ -7,6 +7,7 @@ public class Car_task4 {
     int weight;
     String color;
 
+    // Неплохо :)
     public Car_task4() {
 //        this.year = 2;
 //        this.speed = 60;
@@ -33,6 +34,10 @@ public class Car_task4 {
         this.weight = weight;
     }
 
+    // Наверное, они хотели что-то типа использования конструктора с
+    // 3-мя параметрами, но, если честно, здесь он не к месту, т.к.
+    // все равно все поля придется задавать ручками.
+    // Это правильно, на мой взгляд.
     public Car_task4(int year, double speed, int weight, String color) {
         this.year = year;
         this.speed = speed;
