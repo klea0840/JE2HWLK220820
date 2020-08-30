@@ -1,6 +1,6 @@
 package car_task4;
 
-import car_task3.Car;
+import car_task3.Car; // это здесь не нужно
 
 public class Main {
 
